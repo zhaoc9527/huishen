@@ -1,85 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Small Business - Start Bootstrap Template</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-5">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container px-4 px-lg-5">
-            <!-- Heading Row-->
-            <div class="row gx-4 gx-lg-5 align-items-center my-5">
-                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg" alt="..." /></div>
-                <div class="col-lg-5">
-                    <h1 class="font-weight-light">Business Name or Tagline</h1>
-                    <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
-                    <a class="btn btn-primary" href="#!">Call to Action!</a>
-                </div>
-            </div>
-            <!-- Call to Action-->
-            <div class="card text-white bg-secondary my-5 py-4 text-center">
-                <div class="card-body"><p class="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p></div>
-            </div>
-            <!-- Content Row-->
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h2 class="card-title">Card One</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
-                        </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h2 class="card-title">Card Two</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
-                        </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h2 class="card-title">Card Three</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
-                        </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
-                    </div>
-                </div>
-            </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>慧深机器人</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    section {
+      padding: 80px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container px-5">
+    <a class="navbar-brand" href="#home">慧深机器人</a>
+    <button class="navbar-toggler" type="button" dshenata-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">首页</a></li>
+        <li class="nav-item"><a class="nav-link" href="#products">产品中心</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">关于我们</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">联系方式</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="bg-light">
+  <div class="container text-center">
+    <h1>欢迎来到慧深机器人</h1>
+    <p class="lead">提供多种类型的高质量夹爪，适用于各种工业和机器人应用。</p>
+    <a href="#products" class="btn btn-primary">查看产品</a>
+  </div>
+</section>
+
+<!-- Products Section -->
+<section id="products" class="bg-secondary text-white">
+  <div class="container">
+    <h2>产品中心</h2>
+    <p>我们提供多款夹爪产品，适用于不同的需求。</p>
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a class="nav-link active" href="#hs1">HS1系列</a></li>
+      <li class="nav-item"><a class="nav-link" href="#hs2">HS2系列</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- HS1 Section -->
+<section id="hs1" class="bg-light">
+  <div class="container">
+    <h3>HS1系列</h3>
+    <p>HS1系列夹爪适用于高精度机器人应用，具有较强的抓取能力。</p>
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="HS1 产品1">
+          <div class="card-body">
+            <h5 class="card-title">HS1 产品1</h5>
+            <p class="card-text">适用于轻型机器人，具有高精度的夹持力。</p>
+          </div>
+          <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">了解更多</a></div>
         </div>
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="HS1 产品2">
+          <div class="card-body">
+            <h5 class="card-title">HS1 产品2</h5>
+            <p class="card-text">高负载、耐高温的机器人夹爪。</p>
+          </div>
+          <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">了解更多</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HS2 Section -->
+<section id="hs2" class="bg-dark text-white">
+  <div class="container">
+    <h3>HS2系列</h3>
+    <p>HS2系列夹爪适用于中高负载的机器人工作，具有更强的耐用性。</p>
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="HS2 产品1">
+          <div class="card-body">
+            <h5 class="card-title">HS2 产品1</h5>
+            <p class="card-text">适用于中高负载的精密抓取。</p>
+          </div>
+          <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">了解更多</a></div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="HS2 产品2">
+          <div class="card-body">
+            <h5 class="card-title">HS2 产品2</h5>
+            <p class="card-text">适用于工业自动化和重载机器人。</p>
+          </div>
+          <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">了解更多</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="bg-light">
+  <div class="container">
+    <h2>关于我们</h2>
+    <p>我们专注于提供精确、耐用且高效的夹爪解决方案。我们的产品广泛应用于机器人、自动化和工业领域，帮助客户提高生产效率和产品质量。</p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-dark text-white">
+  <div class="container">
+    <h2>联系我们</h2>
+    <p>如果您对我们的夹爪产品感兴趣，欢迎通过以下方式联系我们：</p>
+    <ul>
+      <li>邮箱：sales@clawproducts.com</li>
+      <li>电话：400-123-4567</li>
+      <li>地址：四川省成都市wen'jiang'qiwenjiangqi</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container text-center text-white">
+    <small>版权所有 © 2023 夹爪销售公司</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
